@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/job-matching-backend/node_modules
+/job-matching-platform/node_modules
+

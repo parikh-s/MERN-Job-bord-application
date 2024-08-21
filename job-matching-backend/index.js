@@ -22,7 +22,7 @@ const jobRoutes = require('./routes/job');
 app.use(express.json({ limit: '10mb' }));  // Set limit to 10MB or adjust as needed
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://sarthakparikh20010409:cProzfk3Dib3KIq8@cluster0.f1bm4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://sarthakparikh20010409:<db_password>@cluster0.f1bm4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('MongoDB connected'))
